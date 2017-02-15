@@ -1,5 +1,5 @@
 /*
-  Team Token: Xin Yi Chen, Melanie Chow, Jack
+  Team Token: Xin Yi Chen, Melanie Chow, Jack Cruse
   APCS2 pd4
   HW07 -- What Does the Data Say?  
   2017-02-14
@@ -20,7 +20,7 @@
   n=10      time: 1291ns
   n=100     time: 12460ns
   ...
-  n=<huge>  time: infinite
+  n=<huge>  time: nlog2(n)
 
   ANALYSIS:
   The pattern seem to be ~54nlog2(n) -> a constant about 54 times the number of elements and times the log base 2 of the number of elements. The results fits the pattern of a loglinear runtime.

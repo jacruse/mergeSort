@@ -1,5 +1,5 @@
 /*
-  Team Token: Xin Yi Chen, Melanie Chow, Jack
+  Team Token: Xin Yi Chen, Melanie Chow, Jack Cruse
   APCS2 pd4
   HW07 -- What Does the Data Say?  
   2017-02-14
