@@ -61,7 +61,7 @@ public class MergeSortTester
 	    total += time(a);
 	}
 	total = total / 1000;
-	String message = a.length + " elements: " + total;
+	String message = a.length + " elements: " + total + "ns";
 	return message;
     }
     
@@ -69,11 +69,14 @@ public class MergeSortTester
     {
 	//the first testcase always take longer time
 	System.out.println("===ignore this line=== " + time(popArray(0)));
-	System.out.println(meanTime(popArray(1)));
-	System.out.println(meanTime(popArray(10)));
+	for (int x = 0; x < 15 ; x++){
+	    
+	    System.out.println(meanTime(popArray((int)Math.pow(2,x))));
+	}
+	/*System.out.println(meanTime(popArray(10)));
 	System.out.println(meanTime(popArray(100)));
 	System.out.println(meanTime(popArray(1000)));
-	System.out.println(meanTime(popArray(10000)));
+	System.out.println(meanTime(popArray(10000)));*/
     }//end main
 
 }//end class
