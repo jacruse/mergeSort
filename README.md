@@ -9,11 +9,6 @@ By subtracting the time before the operation from the time after the operation,
     
 After running several testcases, we realized that MergeSort has a loglinear 
     runtime.
-   n=1       time: 54ns
-   n=10      time: 1291ns
-   n=100     time: 12460ns
-        ...
-   n=<huge>  time: nlog2(n)
        
 Graphs:
 
