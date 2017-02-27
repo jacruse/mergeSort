@@ -11,5 +11,5 @@
        
        Graphs:
        
-    ![picture](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
+    ![picture](../graphs/table.png)
 
