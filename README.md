@@ -8,3 +8,6 @@
        n=100     time: 12460ns
         ...
        n=<huge>  time: nlog2(n)
+       
+       Graphs:
+       ![alt tag](https://../graphs/table.png)
