@@ -10,5 +10,5 @@
        n=<huge>  time: nlog2(n)
        
        Graphs:
-    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
+    ![picture](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
 
