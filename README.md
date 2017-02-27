@@ -19,4 +19,10 @@
        y1 = time in nanoseconds
      
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
+     
+   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/bigoh.png)
+     
+   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/graph.png)
+     
+   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/zoom.png)
 
