@@ -19,7 +19,9 @@ Graphs:
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
    
    black line: loglinear
-   
+   red line: linear
+   green line: quadratic
+   yellow line: logrithmic
      
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/bigoh.png)
      
