@@ -23,16 +23,17 @@ Graphs:
    
    black line: loglinear
    
-   red line: linear
+   yellow line: linear
    
-   green line: quadratic
+   blue line: quadratic
    
-   yellow line: logrithmic
+   green line: logrithmic
+   
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/bigoh.png)
    
-    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/graph.png)
+   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/graph.png)
     
- ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/zoom.png)
+   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/zoom.png)
 
 
 By looking at the graph, we can see that our data points matches the best with the graph of loglinear.
