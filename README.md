@@ -36,4 +36,4 @@ Graphs:
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/zoom.png)
 
 
-By looking at the graph, we can see that our data points matches the best with the graph of loglinear.
+  By looking at the graph, we can see that our data points matches the best with the graph of loglinear.
