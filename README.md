@@ -15,7 +15,11 @@ Graphs:
    x1 = the number of elements in the array
    
    y1 = time in nanoseconds
+   
   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
+  
+  ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/table1.png)
+
    
    black line: loglinear
    
@@ -24,7 +28,11 @@ Graphs:
    green line: quadratic
    
    yellow line: logrithmic
+   ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/bigoh.png)
    
+    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/graph.png)
+    
+ ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/zoom.png)
 
 
 By looking at the graph, we can see that our data points matches the best with the graph of loglinear.
