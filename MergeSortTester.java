@@ -23,7 +23,7 @@
   n=<huge>  time: nlog2(n)
 
   ANALYSIS:
-  The pattern seem to be ~54nlog2(n) -> a constant about 54 times the number of elements and times the log base 2 of the number of elements. The results fits the pattern of a loglinear runtime.
+  The big-O classification seem to be nlog2(n) -> the number of elements and times the log base 2 of the number of elements. The results fits the pattern of a loglinear runtime. This solution can be obtained graphically by plotting the points for the runtime as well as the other runtime functions (quadratic, loglinear, linear, logarithmic) and seeing how the data most closely matches a loglinear function. One can classify the runtime logically by thinking about how the sameple size is broken down. If I have a data set of n elements, then I must perform log(n) divisions of the data, creating log(n) + 1 levels of data (including the first whole array position). Now the runtime  merge operation we perform will always be equal to n because at each step for a merge, the runtime of an individual merge will be n/k, for k being 2^row number. This then must be considered with the whole row because there will be k times you must perform this merge, so the equation turns into k(n/k) or n, linear runtime. This is combined with the logarithmic runtime of breaking down the data yields a runtime of n(log(n) + 1) which when broken down becomes nlog(n) (one must remove extraneous facts such as constants or other additions with lower runtime to yield the true classifcation, as normal with big-O notation).
   ======================================*/
 
 public class MergeSortTester 
@@ -38,9 +38,7 @@ public class MergeSortTester
      ******************************/
     
     public static long time(int[] arr){
-	//	MergeSort.printArray(arr);
 	long before = System.nanoTime();
-	//	MergeSort.printArray(MergeSort.sort(arr));
 	MergeSort.sort(arr);
 	long after = System.nanoTime();
 	return after-before;
@@ -69,7 +67,7 @@ public class MergeSortTester
     {
 	//the first testcase always take longer time
 	System.out.println("===ignore this line=== " + time(popArray(0)));
-	for (int x = 0; x < 15 ; x++){
+	for (int x = 0; x < 21 ; x++){
 	    
 	    System.out.println(meanTime(popArray((int)Math.pow(2,x))));
 	}
