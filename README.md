@@ -17,6 +17,9 @@ Graphs:
    y1 = time in nanoseconds
      
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/table.png)
+   
+   black line: loglinear
+   
      
    ![alt tag](https://github.com/jacruse/mergeSort/blob/master/graphs/bigoh.png)
      
